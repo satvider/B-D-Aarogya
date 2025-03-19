@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .direction{
+				margin: 10px;
+				margin-left: 100px;
+                font-size: larger;
+				
+			}
+       
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px auto;
+}
+
+
+.plan-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+
+.plan-card h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plan-card p {
+    font-size: 25px;
+    color: #444;
+    margin: 10px 0;
+}
+
+
+.plan-btn {
+    background-color: #f5c61c;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+
+.plan-btn:hover {
+    background-color:rgb(5, 5, 84);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="direction">
+        <h3><b>Home  >  Our Kavach Plan</b></h3>
+    </div>
+    <hr>
+    <div class="plans-container">
+        <div class="plan-card">
+            <h3>INDIVIDUAL PLAN</h3><hr>
+            <p><b>Price <br> Rs 2199/- Per<br> Year</b></p>
+            <button class="plan-btn">GET IT NOW</button>
+        </div>
+
+        <div class="plan-card">
+            <h3>MATERNITY PLAN</h3><hr>
+            <p><b>Price <br> Rs 2999/- Per<br> Year</b></p>
+            <button class="plan-btn">GET IT NOW</button>
+        </div>
+
+        <div class="plan-card">
+            <h3>FAMILY PLAN</h3><hr>
+            <p><b>Price <br> Rs 3999/- Per<br> Year</b></p>
+            <button class="plan-btn">GET IT NOW</button>
+        </div>
+    </div>
+
+    
+
+    <script>
+        // Select all buttons
+const buttons = document.querySelectorAll(".plan-btn");
+
+// Add click event to each button
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        alert("Plan Selected! Proceed to Payment.");
+    });
+});
+    </script>
+</body>
+</html>
