@@ -1,90 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../../css/footer.css">
+   <link rel="stylesheet" href="../../css/navbar.css">
+   <style>
+    
 
-<!DOCTYPE HTML>
-<html>
-   <head>
-      <title>Login Window</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="keywords" content="" />
-      <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-      <link href="https://gpaarogya.com/eoffice/public/admin/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-      <!-- Custom Theme files -->
-      <link href="https://gpaarogya.com/eoffice/public/admin/css/style.css" rel='stylesheet' type='text/css' />
-      <link href="https://gpaarogya.com/eoffice/public/admin/css/font-awesome.css" rel="stylesheet">
-      <script src="https://gpaarogya.com/eoffice/public/admin/js/jquery.min.js"> </script>
-      <script src="https://gpaarogya.com/eoffice/public/admin/js/bootstrap.min.js"> </script>
-      <style>
-         body {
-         position:fixed;
-         padding:0;
-         margin:0;
-         top:0;
-         left:0;
-         width: 100%;
-         height: 100%;
-      
-         }
-         .login-bottom{
-			 width
-         border:2px dotted #d95459;
-         }
-         .login-mail input[type="text"], .login-mail input[type="password"]{
-         font-weight:bolder;
-         }
-      </style>
-   </head>
-   <body>
-      <div class="login">
-         <h1 style="height:40px;" ><a href="https://gpaarogya.com/eoffice/hr/login" class="autoText"></a></h1>
-         <div class="login-bottom">
-            <form action="https://gpaarogya.com/eoffice/hr/validate_login" method="POST">
-               <div class="col-md-12">
-                                 </div>
-			   
-               <div class="col-md-12">
-                  <div class="login-mail">
-                     <input type="text" name="username" id="username" placeholder="Enter your Username" required="" autocomplete="off" >
-                     <i class="fa fa-user"></i>
-                  </div>
-                  <div class="login-mail">
-                     <input type="password" name="password" id="password" placeholder="Your Password" required="" >
-                     <i class="fa fa-lock"></i>
-                  </div>
-                  <a class="news-letter " href="#">
-                  <label class="checkbox1"><input type="checkbox" name="checkbox-signin" id="checkbox-signin" ><i> </i>Remember</label>
-                  </a>
-               </div>
-               <div class="col-md-12 login-do">
-                  <label class="hvr-shutter-in-horizontal login-sub">
-                  <input type="submit" value="login">
-                  </label>
-				  
-               </div>
-               <div class="clearfix"> </div>
-            </form>
-         </div>
-      </div>
-      <!---->
-      <div class="copy-right">
-      <p> <b style="color:#fff;">www.gpaarogya.com &copy; 2024.</b></p>      <!---->
-      <!--scrolling js-->
-      <script src="https://gpaarogya.com/eoffice/public/admin/js/jquery.nicescroll.js"></script>
-      <script src="https://gpaarogya.com/eoffice/public/admin/js/scripts.js"></script>
-      <!--//scrolling js-->
+.footer {
+    margin-top: 110px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(15, 15, 39)
+}
+
+.abt-head {
+    color: #ffffff;
+    padding: 20px 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.abt-p {
+    color: #ffffff;
+    padding: 60px 100px;
+    margin-right: 57%;
+    float: left;
+    margin-top: -40px;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-title-container {
+    float: right;
+    margin-right: 50%;
+    margin-top: -70px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: -210px;
+    margin-bottom: 30px;
+}
+
+.footer-li {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+.footer-title-container-2 {
+    float: right;
+    margin-right: 37%;
+    margin-top: -300px;
+}
+
+.footer-title-2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-li {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-title-container-3 {
+    float: right;
+    margin-right: 20%;
+    margin-top: -300px;
+}
+
+.footer-title-3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.footer-li {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.f-txt {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.logo2 img {
+    width: 20%;
+    margin-left: 10%;
+
+}
+
+   .direction{
+				margin: 10px;
+				margin-right:65%;
+                font-size: larger;
+				
+			}
+.heading2{
+   text-align: center;
+   font-size: 45px;
+   margin-top: 40px;
+}
+.one-line{
+   text-align: center;
+
+}
+
+/* Set the full-page background image */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background container */
+.background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../../images/background-image.jpg') no-repeat center center/cover;
+}
+
+/* Semi-transparent overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 50, 128, 0.6); /* Dark blue overlay */
+}
+
+/* Content box */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    width: 60%;
+}
+
+/* Features styling */
+.features {
+    margin-top: 15px;
+}
+
+.feature {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.para222{
+   color: white;
+   font-size: 22px;
+   margin-bottom: 35px;
+}
+.wcu{
+   color: white;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    padding: 10px;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: bold;
+    color: black; /* Adjust color */
+    margin-top: 40px;
+}
+
+.stat-box p {
+    font-size: 20px;
+    color: black;
+}
+
+   
+   </style>
+</head>
+<body>
+    <p class="text-1">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; ❔TollFree No:
+        1800-345678 &nbsp; &nbsp; &nbsp;✉ info@gpaarogya.com &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+        &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+        &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Registration No: DIPP143051 &nbsp; &nbsp; &nbsp;&nbsp;
+        Product &nbsp; &nbsp; &nbsp;Login </p>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../../images/nav-logo.png">
+        </div>
+        <button class="menu-toggle">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="../../index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About Us </a>
+                <ul class="dropdown-menu">
+                    <li><a href="../About.html/AboutGPAarogya.html">About GP Aarogya</a></li>
+                    <li><a href="../About.html/WhyAarogyaKavach.html">Why Aarogya Kavach?</a></li>
+                    <li><a href="../About.html/Strength&Priorities.html">Strength & Priorities</a></li>
+                    <li><a href="../About.html/Chairman'sMessage.html">Chairman's Message</a></li>
+                    <li><a href="../About.html/LegalDocuments.html">Legal Documents</a></li>
+                    <li><a href="../About.html/PathkindAgreement.html">Pathkind Agreement</a></li>
+
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Benefits </a>
+                <ul class="dropdown-menu">
+                    <li><a href="../Benefits/telehealth.html">Telehealth</a></li>
+                    <li><a href="../Benefits/benefits.html">Benefits</a></li>
+
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Aarogya Plan </a>
+                <ul class="dropdown-menu">
+                    <li><a href="../AarogyaPlan.html/IndividualAarogyaKavachPlan.html">Individual Aarogya Kavach Plan</a></li>
+                    <li><a href="../AarogyaPlan.html/FamilyAarogyaKavachPlan.html">Family Aarogya Kavach Plan</a></li>
+                    <li><a href="../AarogyaPlan.html/WomenMaternityPlan.html">Women Maternity Plan</a></li>
+                    <li><a href="../AarogyaPlan.html/YodhaKavachIndividualPlan.html">Yodha Kavach Individual Plan</a></li>
+                    <li><a href="../AarogyaPlan.html/YodhaKavachFamilyPlan.html">Yodha Kavach Family Plan</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="./html/contact.html">Partner Hospital </a>
+                <ul class="dropdown-menu">
+                    <li><a href="./list-hospital.pdf">Hospital List</a></li>
+                    <li><a href="./lab-list.pdf">Lab List</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Our Policy</a>
+                <ul class="dropdown-menu">
+                    <li><a href="../Ourpolicy.html/PrivacyPolicy.html">Privacy Policy</a></li>
+                    <li><a href="../Ourpolicy.html/TermsofProduct.html">Terms Of Product</a></li>
+                    <li><a href="../Ourpolicy.html/RefundPolicy.html">Refunds Policy</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../career.html">Careers </a>
+                <ul class="dropdown-menu">
+                    <li><a href="../career-form.html">career Form</a></li>
+
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="../contact.html">Contact </a>
+
+            </li>
+
+        </ul>
+    </nav>
+    <img class="head-img" src="../../images/c-h-1.jpg">
+   
+   <div >
+      <h3 class="direction"><b>Home  >  Why Choose Us?</b></h3>
+  </div>
+  <hr>
+  <h1 class="heading2">Covering 700+ Cities and Town and 
+   <br/> 55000+ Pin Codes</h2></h1><br>
+
+   <p class="one-line"><b>ASIA'S FASTEST GROWING TECHNOLOGY DRIVEN AFFORDABLE HEALTH CARE COMPANY</b>
+   </p>
+
+ 
+
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <h2 class="wcu">Why Choose Us</h2>
+            <p class="para222">
+                Aarogya Kavach is an attempt to move from sectoral and segmented approach of health<br> service delivery 
+                to a comprehensive need-based health care service. This scheme aims to<br> undertake path-breaking 
+                interventions to holistically address the healthcare system (covering <br>prevention, promotion, 
+                and ambulatory care) at the primary, secondary, and tertiary level.</p>
+            </p>
+            <div class="features">
+                <div class="feature"> Getting care at home, especially for people who can’t easily get to their provider’s offices.</div>
+                <div class="feature"> Our doctor’s use protocols that allow them to arrive at an accurate diagnosis.</div>
+                <div class="feature"> The doctors are trained & certified to practice teleconsultation.</div>
+                <div class="feature">Aarogya Doctors spend an average 15-20 minutes on each consultation.</div>
+            </div>
+        </div>
+    </div>
+
+   
+		<div class="stats-container">
+			<div class="stat-box">
+				<span class="number" data-target="28600">0</span>
+				<p><b>NETWORKS OF HOSPITAL</b></p>
+			</div>
+			<div class="stat-box">
+				<span class="number" data-target="4500">0</span>
+				<p><b>HAPPY CUSTOMERS </b></p>
+			</div>
+			<div class="stat-box">
+				<span class="number" data-target="400">0</span>
+				<p><b> CITIES COVERED</b></p>
+			</div>
+			<div class="stat-box">
+				<span class="number" data-target="7100">0</span>
+				<p><b>OPD CONSULTANT CENTERS</b></p>
+		    </div>
+		</div>
+
+
+        <footer class="footer">
+            <div class="logo2">
+                <img src="../../images/nav-logo.png">
+            </div>
+            <hr class="hr1">
+            <h1 class="abt-head">
+                ABOUT BD SURE AAROGYA Pvt. Ltd.
+            </h1>
+        
+            <p class="abt-p">
+                "BD SURE AAROGYA PRIVATE LIMITED" is a India's First Company which provide OPD Card
+                facilities for the individual and also for the family member.
+                BD SURE AAROGYA is an attempt to move from sectoral and segmented approach of health service
+                delivery to a comprehensive need-based health care service.
+            </p>
+            <div class="footer-title-container">
+                <h5 class="footer-title">Company</h5>
+                <ul>
+                    <a class="footer-li" href="index.php">Home</a><br>
+                    <a class="footer-li" href="about-gp-aarogya.php">About</a><br>
+                    <a class="footer-li" href="">FAQs</a><br>
+        
+                    <a class="footer-li" href="contact.php">Contact</a><br>
+                    <a class="footer-li" href="privacy-policy.php">Privacy Policy</a><br>
+                    <a class="footer-li" href="terms-product.php">Terms Of Product</a><br>
+                    <a class="footer-li" href="refunds.php">Refunds Policy</a>
+                </ul>
+            </div>
+            <div class="footer-title-container-2">
+                <h5 class="footer-title-2">Get in touch</h5>
+                <ul>
+                    <a class="footer-li" href="index.php">Why Us</a><br>
+                    <a class="footer-li" href="about-gp-aarogya.php">Our Strength</a><br>
+                    <a class="footer-li" href="">Career</a><br>
+        
+                    <a class="footer-li" href="contact.php">Partner Hospital</a><br>
+                    <a class="footer-li" href="privacy-policy.php">ASO Regestration</a><br>
+                    <a class="footer-li" href="terms-product.php">BDO Regestration</a><br>
+                    <a class="footer-li" href="refunds.php">BDM Regestration</a>
+                </ul>
+            </div>
+        
+            <div class="footer-title-container-3">
+                <h5 class="footer-title-3">Aarogya Kavach</h5>
+                <ul>
+                    <a class="footer-li" href="index.php">Benefits Aarogya <br>Kavach</a><br>
+                    <a class="footer-li" href="about-gp-aarogya.php">Individual Plan </a><br>
+                    <a class="footer-li" href="">Family Plan </a><br>
+        
+                    <a class="footer-li" href="contact.php">Maternity<br> Individual Plan</a><br>
+        
+                </ul>
+            </div>
+            <hr class="hr">
+            <p class="f-txt">Design & Developed By GP AAROGYA HEALTHCARE TECHNOLOGY PVT.LTD.</p>
+        </footer>
+
+
       <script>
-         var txt = 'LOGIN WINDOW'.split(''),
-         	$h1 = $('.autoText'),
-         	len = txt.length,
-         	delay = 500,
-         	i = 0;
-         
-         setInterval(function() {
-         	$h1.append(txt[i++]);
-         	if (i > len) {
-         		$h1.empty();
-         		i = 0;
-         	}
-         }, delay);
-      </script>
-   </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl504718'},{'dcenter':'p3'},{'cp_id':'9856634'},{'cp_cache':''},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
+         function animateCounter(element, target) {
+      let count = 0;
+      let speed = target / 100; // Adjust speed
+      let interval = setInterval(() => {
+          count += Math.ceil(speed); // Increment
+          if (count >= target) {
+              count = target;
+              clearInterval(interval); // Stop when the target is reached
+          }
+          element.textContent = count + "+"; // Update the text
+      }, 20); // Speed of animation
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll(".number").forEach((num) => {
+          let target = parseInt(num.getAttribute("data-target"));
+          animateCounter(num, target);
+      });
+   });
+
+    </script>
+</body>
+</html>
+</body>
+</html>

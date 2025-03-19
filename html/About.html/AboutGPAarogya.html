@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<titel>document</titel>
+	<titel></titel>
 	<link rel="stylesheet" href="../../css/footer.css">
 	<link rel="stylesheet" href="../../css/navbar.css">
 	<style>
@@ -96,37 +96,33 @@
 			font-family: Arial, Helvetica, sans-serif;
 		}
 
-		.stat-box p {
-			font-size: 18px;
-		}
+.stat-box p {
+    font-size: 18px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background: url('../../images/background-image.jpg') no-repeat center center/cover;
+}
 
-		.banner {
-			position: relative;
-			width: 100%;
-			height: 400px;
-			/* Adjust as needed */
-			background: url('../../images/background-image.jpg') no-repeat center center/cover;
-		}
-
-		.overlay {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background: rgba(0, 0, 0, 0.419);
-			/* Dark overlay effect */
-			color: white;
-			/* Text color */
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			text-align: center;
-			padding: 20px;
-			margin-top: 90pc;
-
-		}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.419); /* Dark overlay effect */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+	margin-top: 90pc;
+	
+}
 
 		.overlay h1 {
 			font-size: 50px;
@@ -143,28 +139,25 @@
 			margin-bottom: 10px;
 		}
 
-		.overlay p {
-			font-size: 16px;
-			max-width: 80%;
-		}
-
-		.paragraph {
-
-			color: white;
-		}
-
-		.text-second {
-			text-align: left;
-			margin-left: 195px;
-		}
-
-		.background {
-			background: url("../images/image-background.jpg") no-repeat center center/cover;
-			height: 100vh;
-			color: #fff;
-			text-align: center;
-			font-size: larger;
-			padding-top: 15px;
+.overlay p {
+    font-size: 16px;
+    max-width: 80%;
+}
+.paragraph{
+	
+	color: white;
+}
+.text-second{
+	text-align:left;
+	margin-left: 195px;
+}
+.background{
+	background: url("../images/image-background.jpg") no-repeat center center/cover;
+    height: 100vh;
+	color: #fff;
+	text-align: center;
+	font-size: larger ;
+	padding-top: 15px;
 
 
 		}
@@ -195,126 +188,113 @@
 			align-items: center;
 		}
 
-		.heading::before {
-			content: "";
-			width: 7px;
-			/* Thickness of the line */
-			height: 40px;
-			/* Match text height */
-			background-color: #F9A826;
-			/* Yellow color */
-			margin-right: 10px;
-			/* Space between line and text */
-			display: inline-block;
-		}
+.heading::before {
+    content: "";
+    width: 7px; /* Thickness of the line */
+    height: 40px; /* Match text height */
+    background-color: #F9A826; /* Yellow color */
+    margin-right: 10px; /* Space between line and text */
+    display: inline-block;
+}
+.text-after-wps{
+	font-size: large;
+	margin-left: 155px;
+}
 
-		.text-after-wps {
-			font-size: large;
-			margin-left: 155px;
-		}
-	</style>
-</head>
 
-<body>
-	<p class="text-1">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; ❔TollFree No:
-		1800-345678 &nbsp; &nbsp; &nbsp;✉ info@gpaarogya.com &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-		&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-		&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-		&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-		&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Registration No: DIPP143051 &nbsp; &nbsp; &nbsp;&nbsp;
-		Product &nbsp; &nbsp; &nbsp;Login </p>
-	<nav class="navbar">
-		<div class="logo">
-			<img src="../../images/nav-logo.png">
+		</style>
+	</head>
+	<body>
+		<p class="text-1">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; ❔TollFree No:
+			1800-345678 &nbsp; &nbsp; &nbsp;✉ info@gpaarogya.com &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+			&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+			&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+			&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+			&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Registration No: DIPP143051 &nbsp; &nbsp; &nbsp;&nbsp;
+			Product &nbsp; &nbsp; &nbsp;Login </p>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="../../images/nav-logo.png">
+			</div>
+			<button class="menu-toggle">&#9776;</button>
+			<ul class="nav-links">
+				<li><a href="../../index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#">About Us </a>
+					<ul class="dropdown-menu">
+						<li><a href="../About.html/AboutGPAarogya.html">About GP Aarogya</a></li>
+						<li><a href="../About.html/WhyAarogyaKavach.html">Why Aarogya Kavach?</a></li>
+						<li><a href="../About.html/Strength&Priorities.html">Strength & Priorities</a></li>
+						<li><a href="../About.html/Chairman'sMessage.html">Chairman's Message</a></li>
+						<li><a href="../About.html/LegalDocuments.html">Legal Documents</a></li>
+						<li><a href="../About.html/PathkindAgreement.html">Pathkind Agreement</a></li>
+	
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">Benefits </a>
+					<ul class="dropdown-menu">
+						<li><a href="../Benefits/telehealth.html">Telehealth</a></li>
+						<li><a href="../Benefits/benefits.html">Benefits</a></li>
+	
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">Aarogya Plan </a>
+					<ul class="dropdown-menu">
+						<li><a href="../AarogyaPlan.html/IndividualAarogyaKavachPlan.html">Individual Aarogya Kavach Plan</a></li>
+						<li><a href="../AarogyaPlan.html/FamilyAarogyaKavachPlan.html">Family Aarogya Kavach Plan</a></li>
+						<li><a href="../AarogyaPlan.html/WomenMaternityPlan.html">Women Maternity Plan</a></li>
+						<li><a href="../AarogyaPlan.html/YodhaKavachIndividualPlan.html">Yodha Kavach Individual Plan</a></li>
+						<li><a href="../AarogyaPlan.html/YodhaKavachFamilyPlan.html">Yodha Kavach Family Plan</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="./html/contact.html">Partner Hospital </a>
+					<ul class="dropdown-menu">
+						<li><a href="./list-hospital.pdf">Hospital List</a></li>
+						<li><a href="./lab-list.pdf">Lab List</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#">Our Policy</a>
+					<ul class="dropdown-menu">
+						<li><a href="../Ourpolicy.html/PrivacyPolicy.html">Privacy Policy</a></li>
+						<li><a href="../Ourpolicy.html/TermsofProduct.html">Terms Of Product</a></li>
+						<li><a href="../Ourpolicy.html/RefundPolicy.html">Refunds Policy</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="../career.html">Careers </a>
+					<ul class="dropdown-menu">
+						<li><a href="../career-form.html">career Form</a></li>
+	
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="../contact.html">Contact </a>
+	
+				</li>
+	
+			</ul>
+		</nav>
+		<img class="head-img" src="../../images/c-h-1.jpg">
+		
+		<div class="direction">
+			<h3><b>Home  >  About GP Aarogya</b></h3>
+			
 		</div>
-		<button class="menu-toggle">&#9776;</button>
-		<ul class="nav-links">
-
-			<li><a href="./index.html">Home</a></li>
-			<li class="dropdown">
-				<a href="#">About Us ▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">About GP Aarogya</a></li>
-					<li><a href="#">Why Aarogya Kavach?</a></li>
-					<li><a href="#">Strength & Priorities</a></li>
-					<li><a href="#">Chairman's Message</a></li>
-					<li><a href="#">Legal Documents</a></li>
-					<li><a href="#">Pathkind Agreement</a></li>
-
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#">Benefits ▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Telehealth</a></li>
-					<li><a href="#">Benefits</a></li>
-
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#">Aarogya Plan ▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Individual Aarogya Kavach Plan</a></li>
-					<li><a href="#">Family Aarogya Kavach Plan</a></li>
-					<li><a href="#">Women Maternity Plan</a></li>
-					<li><a href="#">Yodha Kavach Individual Plan</a></li>
-					<li><a href="#">Yodha Kavach Family Plan</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="./html/contact.html">Partner Hospital ▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="./list-hospital.pdf">Hospital List</a></li>
-					<li><a href="./lab-list.pdf">Lab List</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#">Our Policy▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Terms Of Product</a></li>
-					<li><a href="#">Refunds Policy</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="./html/career.html">Careers ▾</a>
-				<ul class="dropdown-menu">
-					<li><a href="./html/career-form.html">career Form</a></li>
-
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="./html/contact.html">Contact </a>
-
-			</li>
-
-
-		</ul>
-	</nav>
-	<img class="head-img" src="../../images/c-h-1.jpg">
-	<div class="direction">
-		<h3><b>Home > About GP Aarogya</b></h3>
-
-	</div>
-	<hr>
-	<div>
-		<img class="about-image" src="../images/about page image.jpeg">
-	</div>
-	<div>
-		<h1 class="who-we-are"><b>Who We are?</b></h1>
-	</div>
-	<div>
-		<p class="about-text">GP Aarogya Healthcare Technology Private Limited is Asia's fastest-growing
-			technology-driven affordable healthcare company, dedicated to <br>revolutionizing the healthcare landscape
-			in India. We proudly stand as the nation’s first organization to offer OPD card facilities tailored for
-			both<br> individuals and their family members, making quality healthcare more accessible than ever before.
-		</p>
-
-		<p class="about-text">At GP Aarogya Healthcare, our mission transcends traditional healthcare delivery. We are
-			committed to transforming the fragmented, sectoral approach of health service delivery into a comprehensive,
-			need-based model that prioritizes the holistic well-being of our clients. Our innovative schemes are
-			designed to implement groundbreaking interventions that effectively address the healthcare system at all
-			levels—primary, secondary, and tertiary—encompassing prevention, promotion, and ambulatory care.</p>
+		<hr>
+	    <div>
+		<img class="about-image" src="../../images/about page image.jpeg">
+		</div>
+		<div>
+			<h1 class="who-we-are"><b>Who We are?</b></h1>
+		</div>
+		<div>
+			<p class="about-text">GP Aarogya Healthcare Technology Private Limited is Asia's fastest-growing technology-driven affordable healthcare company, dedicated to <br>revolutionizing the healthcare landscape in India. We proudly stand as the nation’s first organization to offer OPD card facilities tailored for both<br> individuals and their family members, making quality healthcare more accessible than ever before.</p>
+			
+			<p class="about-text">At GP Aarogya Healthcare, our mission transcends traditional healthcare delivery. We are committed to transforming the fragmented, sectoral approach of health service delivery into a comprehensive, need-based model that prioritizes the holistic well-being of our clients. Our innovative schemes are designed to implement groundbreaking interventions that effectively address the healthcare system at all levels—primary, secondary, and tertiary—encompassing prevention, promotion, and ambulatory care.</p>
 
 		<p class="about-text">We believe that everyone deserves access to quality healthcare, and we are dedicated to
 			empowering individuals and families to lead healthier, happier lives. By leveraging cutting-edge technology
@@ -379,80 +359,79 @@
 	<div>
 		<h2 class="heading"><b>WHAT PEOPLE SAY</h2>
 
-		<p class="text-after-wps">It is a long established fact that a reader will be distracted by readable content of
-			a page.</p>
-	</div>
-	<footer class="footer">
-		<div class="logo2">
-			<img src="../../images/nav-logo.png">
-		</div>
-		<hr class="hr1">
-		<h1 class="abt-head">
-			ABOUT BD SURE AAROGYA Pvt. Ltd.
-		</h1>
+                <p class="text-after-wps">It is a long established fact that a reader will be distracted by readable content of a page.</p>
+			</div>
 
-		<p class="abt-p">
-			"BD SURE AAROGYA PRIVATE LIMITED" is a India's First Company which provide OPD Card
-			facilities for the individual and also for the family member.
-			BD SURE AAROGYA is an attempt to move from sectoral and segmented approach of health service
-			delivery to a comprehensive need-based health care service.
-		</p>
-		<div class="footer-title-container">
-			<h5 class="footer-title">Company</h5>
-			<ul>
-				<a class="footer-li" href="index.php">Home</a><br>
-				<a class="footer-li" href="about-gp-aarogya.php">About</a><br>
-				<a class="footer-li" href="">FAQs</a><br>
+			<footer class="footer">
+				<div class="logo2">
+					<img src="../../images/nav-logo.png">
+				</div>
+				<hr class="hr1">
+				<h1 class="abt-head">
+					ABOUT BD SURE AAROGYA Pvt. Ltd.
+				</h1>
+			
+				<p class="abt-p">
+					"BD SURE AAROGYA PRIVATE LIMITED" is a India's First Company which provide OPD Card
+					facilities for the individual and also for the family member.
+					BD SURE AAROGYA is an attempt to move from sectoral and segmented approach of health service
+					delivery to a comprehensive need-based health care service.
+				</p>
+				<div class="footer-title-container">
+					<h5 class="footer-title">Company</h5>
+					<ul>
+						<a class="footer-li" href="index.php">Home</a><br>
+						<a class="footer-li" href="about-gp-aarogya.php">About</a><br>
+						<a class="footer-li" href="">FAQs</a><br>
+			
+						<a class="footer-li" href="contact.php">Contact</a><br>
+						<a class="footer-li" href="privacy-policy.php">Privacy Policy</a><br>
+						<a class="footer-li" href="terms-product.php">Terms Of Product</a><br>
+						<a class="footer-li" href="refunds.php">Refunds Policy</a>
+					</ul>
+				</div>
+				<div class="footer-title-container-2">
+					<h5 class="footer-title-2">Get in touch</h5>
+					<ul>
+						<a class="footer-li" href="index.php">Why Us</a><br>
+						<a class="footer-li" href="about-gp-aarogya.php">Our Strength</a><br>
+						<a class="footer-li" href="">Career</a><br>
+			
+						<a class="footer-li" href="contact.php">Partner Hospital</a><br>
+						<a class="footer-li" href="privacy-policy.php">ASO Regestration</a><br>
+						<a class="footer-li" href="terms-product.php">BDO Regestration</a><br>
+						<a class="footer-li" href="refunds.php">BDM Regestration</a>
+					</ul>
+				</div>
+			
+				<div class="footer-title-container-3">
+					<h5 class="footer-title-3">Aarogya Kavach</h5>
+					<ul>
+						<a class="footer-li" href="index.php">Benefits Aarogya <br>Kavach</a><br>
+						<a class="footer-li" href="about-gp-aarogya.php">Individual Plan </a><br>
+						<a class="footer-li" href="">Family Plan </a><br>
+			
+						<a class="footer-li" href="contact.php">Maternity<br> Individual Plan</a><br>
+			
+					</ul>
+				</div>
+				<hr class="hr">
+				<p class="f-txt">Design & Developed By GP AAROGYA HEALTHCARE TECHNOLOGY PVT.LTD.</p>
+			</footer>
 
-				<a class="footer-li" href="contact.php">Contact</a><br>
-				<a class="footer-li" href="privacy-policy.php">Privacy Policy</a><br>
-				<a class="footer-li" href="terms-product.php">Terms Of Product</a><br>
-				<a class="footer-li" href="refunds.php">Refunds Policy</a>
-			</ul>
-		</div>
-		<div class="footer-title-container-2">
-			<h5 class="footer-title-2">Get in touch</h5>
-			<ul>
-				<a class="footer-li" href="index.php">Why Us</a><br>
-				<a class="footer-li" href="about-gp-aarogya.php">Our Strength</a><br>
-				<a class="footer-li" href="">Career</a><br>
-
-				<a class="footer-li" href="contact.php">Partner Hospital</a><br>
-				<a class="footer-li" href="privacy-policy.php">ASO Regestration</a><br>
-				<a class="footer-li" href="terms-product.php">BDO Regestration</a><br>
-				<a class="footer-li" href="refunds.php">BDM Regestration</a>
-			</ul>
-		</div>
-
-		<div class="footer-title-container-3">
-			<h5 class="footer-title-3">Aarogya Kavach</h5>
-			<ul>
-				<a class="footer-li" href="index.php">Benefits Aarogya <br>Kavach</a><br>
-				<a class="footer-li" href="about-gp-aarogya.php">Individual Plan </a><br>
-				<a class="footer-li" href="">Family Plan </a><br>
-
-				<a class="footer-li" href="contact.php">Maternity<br> Individual Plan</a><br>
-
-			</ul>
-		</div>
-		<hr class="hr">
-		<p class="f-txt">Design & Developed By GP AAROGYA HEALTHCARE TECHNOLOGY PVT.LTD.</p>
-	</footer>
-
-
-	<script>
-		function animateCounter(element, target) {
-			let count = 0;
-			let speed = target / 100; // Adjust speed
-			let interval = setInterval(() => {
-				count += Math.ceil(speed); // Increment
-				if (count >= target) {
-					count = target;
-					clearInterval(interval); // Stop when the target is reached
-				}
-				element.textContent = count + "+"; // Update the text
-			}, 20); // Speed of animation
-		}
+		<script>
+			  function animateCounter(element, target) {
+        let count = 0;
+        let speed = target / 100; // Adjust speed
+        let interval = setInterval(() => {
+            count += Math.ceil(speed); // Increment
+            if (count >= target) {
+                count = target;
+                clearInterval(interval); // Stop when the target is reached
+            }
+            element.textContent = count + "+"; // Update the text
+        }, 20); // Speed of animation
+    }
 
 		document.addEventListener("DOMContentLoaded", () => {
 			document.querySelectorAll(".number").forEach((num) => {
