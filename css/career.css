@@ -1,0 +1,83 @@
+
+.head-img{
+    width: 100%;
+    height: 60vh;
+    margin-top: -240px;
+}
+.H-1{
+    font-family: 11px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.H-1 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.hiri-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    padding: 40px 20px;
+    width: 80%;
+}
+.h-t{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.h-t-2{
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.label {
+    margin-left: 20%;
+    color: rgb(66, 66, 66);
+    margin-top: 30px;
+}
+.value{
+    float: right;
+    margin-right: 20%;
+    color: rgb(66, 66, 66);
+
+}
+
+.value-2{
+    float: right;
+    margin-right: 25%;
+    color: rgb(66, 66, 66);
+}
+.hr-c{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.btn-c{
+    border-radius: 50px;  
+    padding: 10px 20px;
+    margin-left: 45%;
+    margin-bottom: -40px;
+   
+    background-color: rgb(255, 176, 6);
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+.btn-c:hover {
+    background-color: #54026d;
+    color: #ffffff;
+}
