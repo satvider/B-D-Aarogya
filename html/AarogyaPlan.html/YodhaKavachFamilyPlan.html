@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Table</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        .direction{
+				margin: 10px;
+				margin-right:65%;
+                font-size: larger;
+				
+			}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #222;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #e0f7fa;
+}
+
+/* Ensures checkmarks and crosses are properly styled */
+.check {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cross {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+}
+.main-heading{
+    font-size:35px;
+}
+.tandc-card{
+font-size: 45px;
+text-align: left;
+color: rgb(31, 31, 178);
+margin-left: 155px;
+}
+.list-one{
+    text-align: left;
+    margin-left: 155px;
+    row-gap: 15px;
+    
+    line-height: 25px;
+    
+}
+.second-heading{
+    font-size: 30px;
+    margin-left: 155px;
+    text-align: left;
+    margin-top: -39px;
+}
+.third-heading{
+    font-size: 30px;
+    margin-right: 290px;
+    text-align: right;
+    margin-top: -100px;
+}
+.third-point{
+    font-size: 20px;
+    margin-right: 190px;
+    text-align: right;
+    margin-top: -10px;
+}
+.fourth-heading{
+    font-size: 40px;
+text-align: left;
+color: rgb(31, 31, 178);
+margin-left: 155px;
+}
+.second2-heading{
+    font-size: 30px;
+    margin-left: 155px;
+    text-align: left;
+    margin-top: -39px;
+}
+.fourth-points{
+    font-size: 20px;
+   margin-left: 155px;
+    text-align: left;
+    margin-top: -10px;
+    line-height: 35px;
+}
+.term-list{
+    font-size: 20px;
+    margin-left: 900px;
+    text-align: left;
+    margin-top: -10px;
+    line-height: 35px;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+button {
+    background-color: orange;
+  border:none;
+  padding: 14px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button:hover{
+				background-color: rgb(39, 2, 66);
+				color: ghostwhite;}
+
+
+
+/* Pop-up Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-content {
+  padding: 10px;
+}
+
+#closePopup {
+  margin-top: 10px;
+  padding: 15px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+      </style>
+</head>
+<body>
+    <div class="direction">
+        <h3><b>Home  >  FAMILY PLAN </b></h3>
+    </div>
+    <hr>
+    <div>
+        <img class="about-image" src="../../images/yodha.jpeg">
+        </div>
+
+    <h2 class="main-heading">BENEFITS OF FAMILY PLAN</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>HOSPITAL SERVICES DETAILS</th>
+                <th>AAROGYA KAVACH CARD</th>
+                <th>OTHER HEALTH INSURANCE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cash Less 6 OPD General Physician</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>2 Annual Health Checkup</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>2 Dietician Consultation</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>2 Neurologist Consultation</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>2 Eye Checkup</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>Up to 2 Lakh Medical Loan for Hospitalization</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            
+            <tr>
+                <td>1 Lakh Cashless IPD For Hospitalization Coverage</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+
+            <tr>
+                <td>4 OPD Physician Up to 40% Discount </td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>Up to 40% Discount & Pathology Tests</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+            <tr>
+                <td>Up to 30% Discount on Medicines</td>
+                <td class="check">✔</td>
+                <td class="cross">✖</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="tandc-card">Aarogya Kavach Card Terms and Conditions</p>
+    <p><li class="list-one">Card Activation after 30 days.</li>
+    <li class="list-one">All Individual under age the age of 75 can purchase this card.</li>
+    <li class="list-one">Anyone between 18 to 75 years of age can avail instant healthcare loan.</li>
+    <li class="list-one">Only General Physician consultation are available.</li></p>
+
+    
+    <p class="tandc-card">Pre-Approved Low Cost Loan:-</p>
+    <p class="second-heading"><b>What is included ?</b></p>
+    
+        <li class="list-one">Plan Activation in 60 Days with No Cashless.</li>
+        <li class="list-one">Medical Test and Treatments across 10600+ Hospitals.</li>
+        <li class="list-one">Consumables and Extra Monitory Charges are Included.</li>
+        <li class="list-one">527 Days - Care Procedures Included.</li>
+   
+        <p class="third-heading"><b>Terms and Conditions</b></p>
+        <p> <li class="third-point">Availability of Loan is Subject to Credit Score,<br>AQB and repaying Capacity of the Applicant.</li></p>
+
+        <p class="fourth-heading">Person Consultation/ OPD Visits:-</p>
+        <p class="second2-heading"><b>What is included ?</b></p>
+        <li class="fourth-points">General Physician for consultations.</li>
+        <li  class="fourth-points">May be Booked Directly from Aarogya Kavach on Cashless Basis. </li>
+
+        <p class="third-heading"><b>Terms and Conditions</b></p>
+        <p><li class="term-list">Initial Waiting Period for 45 Days.</li>
+        <li class="term-list">Treatment taken outside cashless network Booked Included.</li>
+        <li class="term-list">Consultations have to be booked via Aarogya Kavach Center.</li></p>
+
+        <p class="fourth-heading">Upto 20% off In Pharmacy:-</p>
+        <p class="second2-heading"><b>What is included ?</b></p>
+        <li class="fourth-points">Upto 20% Discount available on Medicines with Home Delivery.</li>
+        <li  class="fourth-points">Prominent E-Pharmacy Partners like 1mg, Apollo Pharmacy &<br> Pharmacy delivery Within 72 hours. </li>
+        <li class="fourth-points">Prescription from any Doctor is Eligible for Discount.</li>
+
+        <p class="third-heading"><b>Terms and Conditions</b></p>
+        <li class="term-list">This is applicable id Order is placed through Aaarogya<br> Kavach Call Center.</li></p>
+
+        <p class="fourth-heading">Health, Fitness and Wellness Benefits:-</p>
+        <p class="second2-heading"><b>What is included ?</b></p>
+        <li class="fourth-points">Annual Health Checkup(78 Parameters) for The Policy Holder.</li>
+        <li  class="fourth-points">Upto 30% off on Lab Test and Scans.</li>
+
+        <p class="third-heading"><b>Terms and Conditions</b></p>
+        <p><li class="term-list">Initial Waiting Period for 30 Days for Annual Health Checkup.</li>
+        <li class="term-list">This is applicable if Booking is made through <br> Aarogya Kavach Call Center or App .</li></p>
+       
+        <label>
+            <input type="checkbox" id="agreeCheckbox"> I confirm that I have read and understood all Terms and Conditions of Your Company.
+          </label><br>
+          <button id="purchaseBtn" disabled>CLICK ON PURCHASE NOW</button>
+          
+          <!-- Pop-up modal -->
+          <div id="popupModal" class="modal">
+            <div class="modal-content">
+              <p>You have agreed to the Terms and Conditions.</p>
+              <button id="closePopup">OK</button>
+            </div>
+          </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    let crosses = document.querySelectorAll(".cross");
+    let checks = document.querySelectorAll(".check");
+
+   
+    checks.forEach(check => {
+        check.addEventListener("mouseover", function() {
+            check.style.transform = "scale(1.2)";
+        });
+        check.addEventListener("mouseout", function() {
+            check.style.transform = "scale(1)";
+        });
+    });
+});
+
+document.getElementById("agreeCheckbox").addEventListener("change", function() {
+  if (this.checked) {
+    document.getElementById("purchaseBtn").disabled = false;
+    document.getElementById("popupModal").style.display = "block";
+  } else {
+    document.getElementById("purchaseBtn").disabled = true;
+  }
+});
+
+document.getElementById("closePopup").addEventListener("click", function() {
+  document.getElementById("popupModal").style.display = "none";
+});
+</script>
+</body>
+</html>
