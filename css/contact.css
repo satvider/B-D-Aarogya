@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.head-img{
+    width: 100%;
+    height: 60vh;
+    margin-top: -240px;
+}
+.H-1{
+    font-family: 11px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.H-1 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.container {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+    width: 40%;
+    background: #4B217F;
+    color: white;
+    padding: 30px;
+}
+.contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact-info p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.contact-info .icon {
+    margin-right: 10px;
+}
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.contact-form {
+    width: 60%;
+    padding: 30px;
+}
+.contact-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-group div {
+    width: 48%;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #F9B000;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #d89400;
+}
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
